@@ -9,7 +9,6 @@ import org.springframework.context.annotation.ImportResource;
 @SpringBootApplication(
         scanBasePackages = {"top.json.edgeball"}
 )
-@ImportResource(locations = {"classpath*:META-INF/context.xml"})
 public class Application {
     private static final Logger logger = LoggerFactory.getLogger(Application.class);
 
