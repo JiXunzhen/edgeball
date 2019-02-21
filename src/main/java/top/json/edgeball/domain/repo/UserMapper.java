@@ -1,4 +1,4 @@
-package top.json.edgeball.dao;
+package top.json.edgeball.domain.repo;
 
 import org.apache.ibatis.annotations.*;
 import top.json.edgeball.domain.UserDO;

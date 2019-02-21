@@ -42,7 +42,7 @@
   	</bean>
 
 	<bean id="userMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
-		<property name="mapperInterface" value="top.json.edgeball.dao.UserMapper" />
+		<property name="mapperInterface" value="top.json.edgeball.domain.repo.UserMapper" />
 		<property name="sqlSessionFactory" ref="sqlSessionFactory" />
 	</bean>
 </beans>

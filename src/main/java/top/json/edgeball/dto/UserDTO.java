@@ -1,18 +1,24 @@
 package top.json.edgeball.dto;
 
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import org.apache.catalina.User;
 import top.json.edgeball.domain.UserDO;
 
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
 public class UserDTO implements Serializable {
     private static final long serialVersionUID = 9186424189151989018L;
-
+    @NotNull
     private Long id;
+    @NotNull
     private String name;
+    @NotNull
     private String password;
+    @NotNull
     private String mobile;
+    @NotNull
     private Short gender;
 
     public Long getId() {
